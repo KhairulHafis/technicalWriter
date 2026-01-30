@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muhammad Khairul Hafis Bin Hussain | Portfolio</title>
+  <style>
+    :root { --border:#e6e6e6; --text:#111; --muted:#555; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0; color: var(--text); line-height: 1.6;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 48px 20px; }
+    .top { display:flex; gap: 16px; align-items: baseline; flex-wrap: wrap; }
+    .name { font-size: 2rem; font-weight: 700; margin: 0; }
+    .meta { color: var(--muted); margin: 6px 0 0 0; }
+    .nav { margin-top: 18px; display:flex; gap: 10px; flex-wrap: wrap; }
+    .btn {
+      display:inline-block; padding: 10px 14px;
+      border: 1px solid var(--border); border-radius: 12px;
+      color: var(--text); text-decoration: none;
+      background: #fff;
+    }
+    .grid { display:grid; gap: 14px; margin-top: 22px; }
+    .card { border:1px solid var(--border); border-radius: 14px; padding: 16px; }
+    h2 { margin: 0 0 8px 0; font-size: 1.2rem; }
+    ul { margin: 10px 0 0 18px; }
+    .muted { color: var(--muted); }
+    .footer { margin-top: 28px; color: var(--muted); font-size: 0.95rem; }
+    .pill {
+      display:inline-block; border:1px solid var(--border);
+      padding: 6px 10px; border-radius: 999px; margin: 6px 6px 0 0;
+      font-size: 0.95rem;
+    }
+    @media (min-width: 860px) {
+      .grid { grid-template-columns: 1.2fr 0.8fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <div class="top">
+      <h1 class="name">Muhammad Khairul Hafis Bin Hussain</h1>
+    </div>
+
+    <p class="meta">
+      Singapore · KhairulHafis07@outlook.sg · +65 98571563 ·
+      <a href="https://linkedin.com/in/khairulhafis07/" target="_blank" rel="noopener">linkedin.com/in/khairulhafis07</a>
+    </p>
+
+    <div class="nav">
+      <a class="btn" href="writing/">Writing samples</a>
+      <a class="btn" href="#projects">Projects</a>
+      <a class="btn" href="#experience">Experience</a>
+      <a class="btn" href="#skills">Skills</a>
+      <a class="btn" href="#contact">Contact</a>
+    </div>
+
+    <div class="grid">
+      <section class="card">
+        <h2>About</h2>
+        <p>
+          I work as a technical writer with 4+ years of enterprise experience.
+          I deliver documentation that supports release readiness, consistency, and usability.
+          I write task-based content in active voice, and I apply documentation standards in docs-as-code workflows.
+        </p>
+
+        <h2>Focus areas</h2>
+        <div>
+          <span class="pill">API documentation</span>
+          <span class="pill">User guides</span>
+          <span class="pill">System manuals</span>
+          <span class="pill">Release documentation</span>
+          <span class="pill">Information architecture</span>
+          <span class="pill">Docs-as-code</span>
+          <span class="pill">Writing standards</span>
+        </div>
+
+        <h2 id="projects">Projects</h2>
+        <p class="muted">
+          Add links to app repositories, demos, and case studies in the following section.
+        </p>
+        <ul>
+          <li><span class="muted">Project name</span> · One-line outcome statement.</li>
+          <li><span class="muted">Project name</span> · One-line outcome statement.</li>
+        </ul>
+      </section>
+
+      <aside class="card">
+        <h2>Highlights</h2>
+        <ul>
+          <li>Migrate documentation repositories to Git and Bitbucket for scalable version control.</li>
+          <li>Modularise content using DITA and Oxygen XML for reuse across products.</li>
+          <li>Align documentation delivery with Agile sprint cycles and release schedules.</li>
+          <li>Review peer documentation and mentor junior writers on standards and tooling.</li>
+        </ul>
+
+        <h2>Award</h2>
+        <p>
+          SPOT Award, NextLabs International Private Limited, 2024.
+        </p>
+
+        <h2>Education</h2>
+        <p>
+          Bachelor of Science in Information and Communication Technology, part-time,
+          Singapore University of Social Sciences, expected 2027.
+        </p>
+        <p class="muted">
+          Relevant coursework includes Data Structures and Algorithms, OOP, Web Development, and Cloud Computing.
+        </p>
+      </aside>
+    </div>
+
+    <section class="card" id="experience">
+      <h2>Experience</h2>
+
+      <p><strong>Technical Writer</strong> · Fintech and payments</p>
+      <ul>
+        <li>Create and maintain user guides, system manuals, and release documentation for enterprise products.</li>
+        <li>Coordinate with SMEs to confirm requirements, terminology, and release scope.</li>
+        <li>Apply structured authoring practices for consistent navigation and reuse.</li>
+      </ul>
+
+      <p><strong>Technical Writer</strong> · NextLabs International Private Limited</p>
+      <ul>
+        <li>Improve repository structure to reduce document retrieval time for internal teams.</li>
+        <li>Streamline documentation processes to reduce release errors and improve quality.</li>
+        <li>Support release readiness through review cycles and change tracking.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Documentation</strong> · End-to-end lifecycle, API documentation, user guides, system manuals, release notes, information architecture</li>
+        <li><strong>Tools</strong> · DITA XML, Oxygen XML, Adobe FrameMaker, Git, Bitbucket, Jira, Confluence, Microsoft Visio, Draw io</li>
+        <li><strong>Standards</strong> · Microsoft Writing Style Guide, modular documentation, content reuse, version control workflows</li>
+      </ul>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: KhairulHafis07@outlook.sg<br />
+        LinkedIn:
+        <a href="https://linkedin.com/in/khairulhafis07/" target="_blank" rel="noopener">linkedin.com/in/khairulhafis07</a>
+      </p>
+    </section>
+
+    <div class="footer">
+      Last updated: January 2026
+    </div>
+  </main>
+</body>
+</html>
